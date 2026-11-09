@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tochki.app/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tochki.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochki.app/en/"/>
+  </url>
+  <url>
+    <loc>https://tochki.app/support</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tochki.app/support"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochki.app/en/support"/>
+  </url>
+  <url>
+    <loc>https://tochki.app/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tochki.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochki.app/en/privacy"/>
+  </url>
+  <url>
+    <loc>https://tochki.app/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tochki.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochki.app/en/"/>
+  </url>
+  <url>
+    <loc>https://tochki.app/en/support</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tochki.app/support"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochki.app/en/support"/>
+  </url>
+  <url>
+    <loc>https://tochki.app/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tochki.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochki.app/en/privacy"/>
+  </url>
+</urlset>

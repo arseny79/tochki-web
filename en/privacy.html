@@ -1,0 +1,150 @@
+<!doctype html>
+<!--
+  Placeholders in this file (search for "TODO"):
+  - [TODO: publisher name] — developer / publisher name (body + footer)
+  - [TODO: country] — publisher country
+  - [TODO: effective date] — effective date
+  - [TODO: PostHog retention period] — analytics data retention period
+  - [TODO: contact email, e.g. support@tochki.app] — contact email (no mailto link yet)
+  - 2026 — year in the footer copyright
+  Hidden (not shown on the page):
+  - [TODO: проверить настройку PostHog «не сохранять IP» / discard IP]
+  This file is duplicated as /en/privacy.html and /en/privacy/index.html — keep both identical.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy — Tochki Club</title>
+  <meta name="description" content="What the Tochki Club app collects: only anonymous usage statistics via PostHog (EU servers), which you can turn off in Settings. No accounts, no ads.">
+  <meta name="theme-color" content="#0F1216">
+  <link rel="canonical" href="https://tochki.app/en/privacy">
+  <link rel="alternate" hreflang="ru" href="https://tochki.app/privacy">
+  <link rel="alternate" hreflang="en" href="https://tochki.app/en/privacy">
+  <link rel="alternate" hreflang="x-default" href="https://tochki.app/privacy">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Privacy policy — Tochki Club">
+  <meta property="og:description" content="No accounts, no ads. Only anonymous usage statistics, which you can turn off in Settings.">
+  <meta property="og:url" content="https://tochki.app/en/privacy">
+  <meta property="og:image" content="https://tochki.app/assets/icon.png">
+  <meta property="og:locale" content="en_US">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/en/" aria-label="Tochki Club — home">
+        <svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="9" cy="14" r="6" fill="#4E8CFF"/><circle cx="20" cy="14" r="6" fill="#FF5A6E"/></svg>
+        <span>Tochki Club</span>
+      </a>
+      <nav aria-label="Main menu">
+        <ul class="nav">
+          <li><a href="/en/">Home</a></li>
+          <li><a href="/en/support">Support</a></li>
+          <li><a href="/en/privacy" aria-current="page">Privacy</a></li>
+          <li class="lang"><a href="/privacy" hreflang="ru" lang="ru" aria-label="Русская версия">RU</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="wrap doc">
+      <h1>Privacy policy</h1>
+      <p class="meta">Tochki Club app. Effective date: <span class="todo">[TODO: effective date]</span></p>
+
+      <div class="panel notice">
+        <p class="last"><strong>In short:</strong> no accounts, no ads, no purchases in the first version. We don't collect names, emails or phone numbers. The app only sends anonymous usage statistics, and you can turn them off: Settings → «Анонимная статистика» (Anonymous statistics).</p>
+      </div>
+
+      <h2>1. Who we are</h2>
+      <p>Developer and publisher of the app: <span class="todo">[TODO: publisher name]</span>, <span class="todo">[TODO: country]</span>. In this policy, “we” means the app's developer.</p>
+
+      <h2>2. What we don't collect</h2>
+      <ul>
+        <li>There are no accounts and no sign-up.</li>
+        <li>No ads or ad SDKs, and no purchases in the first version.</li>
+        <li>We don't collect names, emails or phone numbers.</li>
+        <li>Player names you type in the game are not sent anywhere.</li>
+        <li>The app requests no permissions: no camera, location or contacts.</li>
+        <li>No crash reporting.</li>
+      </ul>
+
+      <h2>3. Anonymous usage statistics</h2>
+      <p>To understand how many people play and where they stop, and to improve the game, the app sends anonymous events to the <strong>PostHog</strong> analytics service (PostHog Inc.). Data is sent to PostHog's servers in the European Union (<code>eu.i.posthog.com</code>). We use no other analytics service.</p>
+      <p>Only these events are sent:</p>
+      <table>
+        <thead><tr><th scope="col">Event</th><th scope="col">Contents</th></tr></thead>
+        <tbody>
+          <tr><td>App opened (<code>session_start</code>)</td><td>—</td></tr>
+          <tr><td>Game started</td><td>mode (vs bot / two players), board size, bot difficulty</td></tr>
+          <tr><td>Game finished</td><td>winning side (player 1 / player 2 / draw), mode, score, board size, number of moves, bot difficulty</td></tr>
+          <tr><td>Screen view</td><td>which screen was opened: menu, game, settings, rules, stats</td></tr>
+        </tbody>
+      </table>
+      <p>Each event also carries:</p>
+      <ul>
+        <li>a random anonymous ID generated on the device and stored there;</li>
+        <li>a random session ID, new on every launch;</li>
+        <li>the app version;</li>
+        <li>the platform (iOS, Android or web);</li>
+        <li>a timestamp.</li>
+      </ul>
+      <p>No person profiles are created in PostHog.</p>
+      <!-- [TODO: проверить настройку PostHog «не сохранять IP» / discard IP] -->
+      <p><strong>IP address.</strong> As with any internet request, the PostHog server technically sees the device's IP address when an event is sent — it is part of the network connection. We do not use the IP address to find out who you are.</p>
+
+      <h2>4. How to turn statistics off</h2>
+      <p>Settings → «Анонимная статистика» (Anonymous statistics). The switch is on by default. When it is off, the app sends no events and clears any events still waiting to be sent.</p>
+      <p>If the device is offline, events wait in the app's memory and are dropped after repeated failed attempts.</p>
+
+      <h2>5. Data on your device</h2>
+      <p>The app stores on the device (in local AsyncStorage):</p>
+      <ul>
+        <li>settings, including the theme and the statistics switch;</li>
+        <li>your game statistics;</li>
+        <li>the last game (moves and score);</li>
+        <li>the last game setup, including player names you typed;</li>
+        <li>the anonymous ID.</li>
+      </ul>
+      <p>This data stays on the device and is not sent to us (except the anonymous ID included in statistics events, if statistics are on).</p>
+      <p><strong>How to delete:</strong> Settings → «Сбросить статистику» (Reset statistics) deletes statistics and the saved game. Uninstalling the app deletes all of its data from the device.</p>
+
+      <h2>6. The Share button</h2>
+      <p>Sharing a result opens your system share sheet. The text goes only where you choose; we don't receive it.</p>
+
+      <h2>7. Purpose and legal basis</h2>
+      <p>The purpose is to understand how many people play and where they stop, and to improve the game. For users in the EU, the legal basis is our legitimate interest in improving the app; you can opt out at any time with the «Анонимная статистика» switch.</p>
+      <p>We do not sell data or share it with advertisers.</p>
+
+      <h2>8. Retention</h2>
+      <p>Anonymous statistics are kept in PostHog for: <span class="todo">[TODO: PostHog retention period]</span>.</p>
+
+      <h2>9. Children</h2>
+      <p>The app is not specifically directed at children and collects no data that identifies a child.</p>
+
+      <h2>10. Your rights</h2>
+      <p>You can ask questions about your data or ask us to delete analytics data by emailing us (see below). Because the ID is anonymous, we may need that ID to find your data. To be honest: we may not be able to link any data to you.</p>
+
+      <h2>11. Changes</h2>
+      <p>If this policy changes — for example, if ads arrive in a later version — the new version will be posted on this page with a new effective date.</p>
+
+      <h2>12. Contact</h2>
+      <p>Email: <span class="todo">[TODO: contact email, e.g. support@tochki.app]</span></p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <ul>
+        <li><a href="/en/privacy">Privacy</a></li>
+        <li><a href="/en/support">Support</a></li>
+      </ul>
+      <p>© 2026 <span class="todo">[TODO: publisher name]</span></p>
+    </div>
+  </footer>
+</body>
+</html>

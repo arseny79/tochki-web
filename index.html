@@ -1,0 +1,138 @@
+<!doctype html>
+<!--
+  Placeholders in this file (search for "TODO"):
+  - 2026 — year in the footer copyright
+  - [TODO: имя или компания издателя] — publisher name in the footer
+  Store badges are non-clickable placeholders ("скоро") until the apps are published.
+-->
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Точки Клуб — игра в точки из школьной тетради</title>
+  <meta name="description" content="Точки Клуб — классическая игра в точки из школьной тетради. Против бота или вдвоём на одном устройстве. Без рекламы, без регистрации, работает без интернета.">
+  <meta name="theme-color" content="#0F1216">
+  <link rel="canonical" href="https://tochki.app/">
+  <link rel="alternate" hreflang="ru" href="https://tochki.app/">
+  <link rel="alternate" hreflang="en" href="https://tochki.app/en/">
+  <link rel="alternate" hreflang="x-default" href="https://tochki.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Точки Клуб — игра в точки из школьной тетради">
+  <meta property="og:description" content="Классика из школьной тетради. Без рекламы и работает без интернета.">
+  <meta property="og:url" content="https://tochki.app/">
+  <meta property="og:image" content="https://tochki.app/assets/icon.png">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Точки Клуб — на главную">
+        <svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="9" cy="14" r="6" fill="#4E8CFF"/><circle cx="20" cy="14" r="6" fill="#FF5A6E"/></svg>
+        <span>Точки Клуб</span>
+      </a>
+      <nav aria-label="Основное меню">
+        <ul class="nav">
+          <li><a href="/" aria-current="page">Главная</a></li>
+          <li><a href="/support">Поддержка</a></li>
+          <li><a href="/privacy">Конфиденциальность</a></li>
+          <li class="lang"><a href="/en/" hreflang="en" lang="en" aria-label="English version">EN</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <section class="hero" aria-labelledby="title">
+        <div>
+          <h1 id="title">Точки Клуб</h1>
+          <p class="pitch">Классика из школьной тетради. Без рекламы и работает без интернета.</p>
+          <ul class="facts">
+            <li>Игра против бота — три уровня: Лёгкий, Средний, Сложный — или вдвоём на одном устройстве.</li>
+            <li>Поля 9×9, 13×13 и 17×17.</li>
+            <li>Бесплатно, без рекламы и покупок в первой версии.</li>
+            <li>Без регистрации.</li>
+          </ul>
+          <div class="badges">
+            <span class="badge" role="img" aria-disabled="true" aria-label="App Store — скоро">
+              <span class="store">App Store</span><span class="soon">скоро</span>
+            </span>
+            <span class="badge" role="img" aria-disabled="true" aria-label="Google Play — скоро">
+              <span class="store">Google Play</span><span class="soon">скоро</span>
+            </span>
+          </div>
+        </div>
+        <figure class="paper">
+          <svg viewBox="0 0 240 216" role="img" aria-labelledby="board-title">
+            <title id="board-title">Клетчатый лист: синие и красные точки, синий контур окружил две красные точки</title>
+            <defs>
+              <pattern id="cells" width="24" height="24" patternUnits="userSpaceOnUse" x="12" y="12">
+                <path d="M24 0H0V24" fill="none" stroke="#C9DDF0" stroke-width="1"/>
+              </pattern>
+              <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                <line x1="0" y1="0" x2="0" y2="6" stroke="#1E56D6" stroke-width="1.4" stroke-opacity="0.55"/>
+              </pattern>
+            </defs>
+            <rect width="240" height="216" fill="#F5F0E4"/>
+            <rect width="240" height="216" fill="url(#cells)"/>
+            <polygon points="84,108 108,84 132,84 156,108 132,132 108,132" fill="url(#hatch)" stroke="#1E56D6" stroke-width="2.5" stroke-linejoin="round"/>
+            <g fill="#D92D43">
+              <circle cx="108" cy="108" r="6"/>
+              <circle cx="132" cy="108" r="6"/>
+              <circle cx="180" cy="60" r="6"/>
+              <circle cx="204" cy="108" r="6"/>
+              <circle cx="60" cy="156" r="6"/>
+              <circle cx="156" cy="180" r="6"/>
+              <circle cx="36" cy="84" r="6"/>
+            </g>
+            <g fill="#1E56D6">
+              <circle cx="84" cy="108" r="6"/>
+              <circle cx="108" cy="84" r="6"/>
+              <circle cx="132" cy="84" r="6"/>
+              <circle cx="156" cy="108" r="6"/>
+              <circle cx="132" cy="132" r="6"/>
+              <circle cx="108" cy="132" r="6"/>
+              <circle cx="60" cy="60" r="6"/>
+              <circle cx="180" cy="156" r="6"/>
+              <circle cx="36" cy="180" r="6"/>
+            </g>
+          </svg>
+          <figcaption>Синий окружил две красные точки: +2 очка</figcaption>
+        </figure>
+      </section>
+
+      <section aria-labelledby="howto">
+        <h2 id="howto">Как играть</h2>
+        <ol class="steps">
+          <li><strong>Ставьте точки</strong> по очереди на пересечения линий, как на клетчатом листе. Синие ходят первыми.</li>
+          <li><strong>Окружайте</strong> точки соперника кольцом из своих точек — окружённые точки захвачены.</li>
+          <li><strong>Считайте очки:</strong> 1 очко за каждую захваченную точку. У кого больше — тот победил.</li>
+        </ol>
+        <p><a href="/support">Подробные правила и ответы на вопросы →</a></p>
+      </section>
+
+      <section aria-labelledby="privacy-note">
+        <h2 id="privacy-note">Конфиденциальность</h2>
+        <div class="panel notice">
+          <p>Без рекламы. Только анонимная статистика, которую можно выключить в настройках.</p>
+          <p class="last"><a href="/privacy">Политика конфиденциальности →</a></p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <ul>
+        <li><a href="/privacy">Конфиденциальность</a></li>
+        <li><a href="/support">Поддержка</a></li>
+      </ul>
+      <p>© 2026 <span class="todo">[TODO: имя или компания издателя]</span></p>
+    </div>
+  </footer>
+</body>
+</html>

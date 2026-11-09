@@ -1,0 +1,121 @@
+<!doctype html>
+<!--
+  Placeholders in this file (search for "TODO"):
+  - [TODO: contact email, e.g. support@tochki.app] — contact email (no mailto link yet)
+  - 2026 — year in the footer copyright
+  - [TODO: publisher name] — publisher name in the footer
+  This file is duplicated as /en/support.html and /en/support/index.html — keep both identical.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support and rules — Tochki Club</title>
+  <meta name="description" content="Tochki Club rules, scoring, the edge rule, offline play, anonymous statistics and how to contact support.">
+  <meta name="theme-color" content="#0F1216">
+  <link rel="canonical" href="https://tochki.app/en/support">
+  <link rel="alternate" hreflang="ru" href="https://tochki.app/support">
+  <link rel="alternate" hreflang="en" href="https://tochki.app/en/support">
+  <link rel="alternate" hreflang="x-default" href="https://tochki.app/support">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Support and rules — Tochki Club">
+  <meta property="og:description" content="How to play dots, how scoring works, and answers to common questions.">
+  <meta property="og:url" content="https://tochki.app/en/support">
+  <meta property="og:image" content="https://tochki.app/assets/icon.png">
+  <meta property="og:locale" content="en_US">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/en/" aria-label="Tochki Club — home">
+        <svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="9" cy="14" r="6" fill="#4E8CFF"/><circle cx="20" cy="14" r="6" fill="#FF5A6E"/></svg>
+        <span>Tochki Club</span>
+      </a>
+      <nav aria-label="Main menu">
+        <ul class="nav">
+          <li><a href="/en/">Home</a></li>
+          <li><a href="/en/support" aria-current="page">Support</a></li>
+          <li><a href="/en/privacy">Privacy</a></li>
+          <li class="lang"><a href="/support" hreflang="ru" lang="ru" aria-label="Русская версия">RU</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap doc">
+      <h1>Support</h1>
+      <p class="secondary">Rules and answers to common questions. Menu names are given in Russian «in quotes», with an English translation.</p>
+
+      <div class="faq">
+        <details open>
+          <summary>1. How to play</summary>
+          <ul>
+            <li>Players take turns placing dots on grid intersections, like on squared notebook paper. Blue moves first.</li>
+            <li>To capture your opponent's dots, enclose them in a ring of your own dots. Enclosed dots are captured; the captured area is outlined and hatched.</li>
+            <li>After a move, captures are checked only for the player who moved.</li>
+            <li>Empty cells inside a ring stay playable.</li>
+          </ul>
+          <p>Modes: against a bot — Easy, Medium or Hard (the Hard bot thinks one move ahead) — or two players on one device. Boards: Small 9×9, Medium 13×13, Large 17×17.</p>
+          <p>You can undo a move («Отменить ход», Undo). An unfinished game is saved and can be continued. There is a statistics screen and a light and dark theme.</p>
+        </details>
+
+        <details>
+          <summary>2. How is the score counted</summary>
+          <p>1 point per captured opponent dot. Territory gives no points.</p>
+        </details>
+
+        <details>
+          <summary>3. Why can't my dot at the edge be captured</summary>
+          <p>This is the classic school edge rule: an enclosed group counts as captured only if it has no path to the board edge. Dots on the edge, or connected to the edge through empty cells, cannot be captured.</p>
+        </details>
+
+        <details>
+          <summary>4. When does a game end</summary>
+          <p>When the board is full or a player taps «Завершить партию» (End game). The higher score wins; equal scores are a draw.</p>
+        </details>
+
+        <details>
+          <summary>5. Do I need the internet</summary>
+          <p>No. The game works fully offline; there are no accounts and no online play. If anonymous statistics are on and you're offline, events wait in memory and are dropped after repeated failed attempts — the game is not affected.</p>
+        </details>
+
+        <details>
+          <summary>6. Are there ads or purchases</summary>
+          <p>No. The first version has no ads and no purchases.</p>
+        </details>
+
+        <details>
+          <summary>7. How do I turn off anonymous statistics</summary>
+          <p>Settings → «Анонимная статистика» (Anonymous statistics) → turn the switch off. After that the app sends no events. See the <a href="/en/privacy">privacy policy</a>.</p>
+        </details>
+
+        <details>
+          <summary>8. How do I delete my data</summary>
+          <p>Statistics and the saved game: Settings → «Сбросить статистику» (Reset statistics). Everything else stored on the device is deleted when you uninstall the app.</p>
+        </details>
+
+        <details open>
+          <summary>9. Contact us</summary>
+          <p>Email: <span class="todo">[TODO: contact email, e.g. support@tochki.app]</span></p>
+          <p>Please include your device model and the app version.</p>
+        </details>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <ul>
+        <li><a href="/en/privacy">Privacy</a></li>
+        <li><a href="/en/support">Support</a></li>
+      </ul>
+      <p>© 2026 <span class="todo">[TODO: publisher name]</span></p>
+    </div>
+  </footer>
+</body>
+</html>
