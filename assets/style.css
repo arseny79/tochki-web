@@ -303,18 +303,6 @@ strong { color: var(--text); }
 }
 .meta { color: var(--text-muted); font-size: 0.95rem; }
 
-/* TODO placeholders — impossible to miss */
-.todo {
-  display: inline;
-  color: var(--warning);
-  background: rgba(245, 177, 76, 0.1);
-  outline: 2px dashed var(--warning);
-  outline-offset: 1px;
-  border-radius: 4px;
-  padding: 0 0.25em;
-  font-weight: 600;
-}
-
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
